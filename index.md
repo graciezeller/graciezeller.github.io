@@ -58,7 +58,7 @@ title: Gracie Zeller
       el.href = 'mailto:' + u + '@' + d;
       el.textContent = u + '@' + d;
     </script>
-    <p><a href="https://bsky.app/profile/zellergracie.bsky.social" target="_blank">bluesky</a></p>
+    <p><a href="https://bsky.app/profile/graciezeller.bsky.social" target="_blank">bluesky</a></p>
     <p><a href="https://www.linkedin.com/in/gracie-zeller" target="_blank">linkedin</a></p>
   </div>
 </section>
