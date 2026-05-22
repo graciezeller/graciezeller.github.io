@@ -29,7 +29,6 @@ title: Gracie Zeller
       </button>
       <div class="cv-section-body">
         <div class="cv-section-inner">
-        div style="height: 0.75rem;"></div>
         
           <div class="cv-entry">
             <span class="cv-entry-date">2026 –</span>
@@ -58,7 +57,6 @@ title: Gracie Zeller
       </button>
       <div class="cv-section-body">
         <div class="cv-section-inner">
-        div style="height: 0.75rem;"></div>
 
           <div class="cv-entry">
             <span class="cv-entry-date">2025 – 2026</span>
