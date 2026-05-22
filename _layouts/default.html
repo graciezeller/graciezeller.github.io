@@ -280,7 +280,6 @@
   transform: rotate(180deg);
 }
 .cv-section-body {
-  padding-top: 0.75rem;
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s ease;
@@ -291,6 +290,9 @@
 .cv-section-inner {
   padding: 0 20px 1.25rem;
   border-top: 1px solid var(--border-light);
+}
+cv-section-inner > :first-child {
+  margin-top: 0.75rem;
 }
 .cv-entry {
   display: flex;
