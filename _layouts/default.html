@@ -231,141 +231,151 @@
       .hero-inner img { width: 80px; height: 80px; }
     }
 
-    /* CV styles */
-    .cv-section {
-      border-top: 1px solid var(--border-light);
-    }
-    .cv-section:last-child {
-      border-bottom: 1px solid var(--border-light);
-    }
-    .cv-section-toggle {
-      width: 100%;
-      background: none;
-      border: none;
-      text-align: left;
-      padding: 14px 0;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-family: inherit;
-    }
-    .cv-section-label {
-      font-size: 0.95rem;
-      color: var(--text);
-    }
-    .cv-section-toggle:hover .cv-section-label {
-      color: var(--muted);
-    }
-    .cv-chevron {
-      width: 16px;
-      height: 16px;
-      stroke: var(--muted);
-      fill: none;
-      stroke-width: 2;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      transition: transform 0.2s;
-      flex-shrink: 0;
-    }
-    .cv-chevron.open {
-      transform: rotate(180deg);
-    }
-    .cv-section-body {
-      overflow: hidden;
-      max-height: 0;
-      transition: max-height 0.3s ease;
-    }
-    .cv-section-body.open {
-      max-height: 1000px;
-    }
-    .cv-section-inner {
-      padding-bottom: 1.25rem;
-    }
-    .cv-entry {
-      display: flex;
-      gap: 1rem;
-      margin-bottom: 1rem;
-    }
-    .cv-entry:last-child {
-      margin-bottom: 0;
-    }
-    .cv-entry-date {
-      font-size: 0.85rem;
-      color: var(--muted);
-      min-width: 80px;
-      padding-top: 2px;
-    }
-    .cv-entry-content {
-      flex: 1;
-    }
-    .cv-entry-title {
-      font-size: 0.9rem;
-      color: var(--text);
-      margin: 0 0 2px;
-    }
-    .cv-entry-place {
-      font-size: 0.85rem;
-      color: var(--muted);
-      margin: 0 0 4px;
-    }
-    .cv-entry-desc {
-      font-size: 0.85rem;
-      color: var(--muted);
-      margin: 0;
-      line-height: 1.6;
-    }
-    .cv-pub-item {
-      margin-bottom: 0.75rem;
-    }
-    .cv-pub-item:last-child {
-      margin-bottom: 0;
-    }
-    .cv-pub-title {
-      font-size: 0.9rem;
-      color: var(--text);
-      margin: 0 0 2px;
-    }
-    .cv-pub-meta {
-      font-size: 0.85rem;
-      color: var(--muted);
-      margin: 0;
-    }
-    .cv-pub-meta a {
-      color: var(--text);
-      border-bottom: 1px solid var(--border);
-      text-decoration: none;
-    }
-    .cv-download-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      margin-top: 1.5rem;
-      padding: 0;
-      font-family: inherit;
-      font-size: 0.9rem;
-      line-height: 1;
-      color: var(--muted);
-      background: none;
-      border: none;
-      border-bottom: 1px solid var(--border);
-      cursor: pointer;
-      text-decoration: none;
-      transition: color 0.15s, border-color 0.15s;
-    }
-    .cv-download-btn:hover {
-      color: var(--text);
-      border-color: var(--text);
-    }
-    .cv-download-btn svg {
-      width: 13px;
-      height: 13px;
-      stroke: currentColor;
-      fill: none;
-      stroke-width: 2;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
+/* CV styles */
+.cv-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.cv-section {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+.cv-section:hover {
+  border-color: var(--text);
+}
+.cv-section-toggle {
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 14px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: inherit;
+}
+.cv-section-label {
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.cv-section-toggle:hover .cv-section-label {
+  color: var(--muted);
+}
+.cv-chevron {
+  width: 16px;
+  height: 16px;
+  stroke: var(--muted);
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+.cv-chevron.open {
+  transform: rotate(180deg);
+}
+.cv-section-body {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+.cv-section-body.open {
+  max-height: 1000px;
+}
+.cv-section-inner {
+  padding: 0 20px 1.25rem;
+  border-top: 1px solid var(--border-light);
+}
+.cv-entry {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.cv-entry:last-child {
+  margin-bottom: 0;
+}
+.cv-entry-date {
+  font-size: 0.85rem;
+  color: var(--muted);
+  min-width: 80px;
+  padding-top: 2px;
+}
+.cv-entry-content {
+  flex: 1;
+}
+.cv-entry-title {
+  font-size: 0.9rem;
+  color: var(--text);
+  margin: 0 0 2px;
+}
+.cv-entry-place {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0 0 4px;
+}
+.cv-entry-desc {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.6;
+}
+.cv-pub-item {
+  margin-bottom: 0.75rem;
+}
+.cv-pub-item:last-child {
+  margin-bottom: 0;
+}
+.cv-pub-title {
+  font-size: 0.9rem;
+  color: var(--text);
+  margin: 0 0 2px;
+}
+.cv-pub-meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0;
+}
+.cv-pub-meta a {
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+}
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 1.5rem;
+  padding: 0;
+  font-family: inherit;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: var(--muted);
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.15s, border-color 0.15s;
+}
+.cv-download-btn:hover {
+  color: var(--text);
+  border-color: var(--text);
+}
+.cv-download-btn svg {
+  width: 13px;
+  height: 13px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+    
   </style>
 </head>
 <body>
