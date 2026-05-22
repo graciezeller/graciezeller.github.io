@@ -28,8 +28,9 @@ title: Gracie Zeller
         <svg class="cv-chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="cv-section-body">
-      <div style="height: 0.75rem;"></div>
         <div class="cv-section-inner">
+        div style="height: 0.75rem;"></div>
+        
           <div class="cv-entry">
             <span class="cv-entry-date">2026 –</span>
             <div class="cv-entry-content">
@@ -56,8 +57,8 @@ title: Gracie Zeller
         <svg class="cv-chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="cv-section-body">
-      <div style="height: 0.75rem;"></div>
         <div class="cv-section-inner">
+        div style="height: 0.75rem;"></div>
 
           <div class="cv-entry">
             <span class="cv-entry-date">2025 – 2026</span>
