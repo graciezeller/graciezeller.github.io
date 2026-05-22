@@ -116,21 +116,6 @@ title: Gracie Zeller
       </div>
     </div>
 
-    <!-- ── Publications ── -->
-    <div class="cv-section">
-      <button class="cv-section-toggle" onclick="cvToggle(this)" aria-expanded="false">
-        <span class="cv-section-label">publications</span>
-        <svg class="cv-chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
-      </button>
-<div class="cv-section-body">
-        <div class="cv-section-inner">
-          <div class="cv-pub-item">
-            <p class="cv-pub-title">Reasoning Through the Logic of One-to-one Correspondence in Children and Macaques</p>
-            <p class="cv-pub-meta">Zeller, G., Ferrigno, S. · (in prep)</p>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- ── Download button ── -->
     <a href="/cv.pdf" target="_blank" class="cv-download-btn">
