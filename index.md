@@ -194,8 +194,8 @@ title: Gracie Zeller
             <span class="cv-entry-date">2026 –</span>
             <div class="cv-entry-content">
               <p class="cv-entry-title">PhD student, Psychology (Cognition and Cognitive Neuroscience)</p>
-              <p class="cv-entry-place">UMass Amherst</p>
-              <p class="cv-entry-desc">Cognitive Construction Lab, advised by Ben Pitt.</p>
+              <p class="cv-entry-place">Cognitive Construction Lab, UMass Amherst</p>
+              <p class="cv-entry-desc">PI: Benjamin Pitt</p>
             </div>
           </div>
           <div class="cv-entry">
