@@ -108,6 +108,9 @@ title: Gracie Zeller
               <p class="cv-entry-desc">PIs: Hector DeLuca, Lori Plum</p>
             </div>
           </div>
+          <p class="cv-entry-desc" style="margin-top: 1rem; font-style: italic;">
+          Other experience includes caring for monkeys and mice, paperboard manufacturing (read: cardboard box factory), pizza artistry, toddler swim coaching, water-slide supervision, and extensive babysitting.
+          </p>
 
         </div>
       </div>
