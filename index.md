@@ -148,6 +148,36 @@ title: Gracie Zeller
       border-bottom: 1px solid var(--border);
       text-decoration: none;
     }
+.cv-download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 1.5rem;
+      padding: 0;
+      font-family: inherit;
+      font-size: 0.9rem;
+      line-height: 1;
+      color: var(--muted);
+      background: none;
+      border: none;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      text-decoration: none;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .cv-download-btn:hover {
+      color: var(--text);
+      border-color: var(--text);
+    }
+    .cv-download-btn svg {
+      width: 13px;
+      height: 13px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
   </style>
 
   <div class="cv-wrap">
@@ -225,7 +255,7 @@ title: Gracie Zeller
         <span class="cv-section-label">publications</span>
         <svg class="cv-chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
-      <div class="cv-section-body">
+<div class="cv-section-body">
         <div class="cv-section-inner">
           <div class="cv-pub-item">
             <p class="cv-pub-title">Reasoning Through the Logic of One-to-one Correspondence in Children and Macaques</p>
@@ -235,27 +265,14 @@ title: Gracie Zeller
       </div>
     </div>
 
-  </div>
-
-  <script>
-    function cvToggle(btn) {
-      var body = btn.nextElementSibling;
-      var chevron = btn.querySelector('.cv-chevron');
-      var isOpen = body.classList.contains('open');
-      body.classList.toggle('open', !isOpen);
-      chevron.classList.toggle('open', !isOpen);
-      btn.setAttribute('aria-expanded', String(!isOpen));
-    }
-  </script>
-
-<!-- ── Download button ── -->
+    <!-- ── Download button ── -->
     <a href="/cv.pdf" target="_blank" class="cv-download-btn">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
       full cv (pdf)
     </a>
- 
+
   </div>
- 
+
   <script>
     function cvToggle(btn) {
       var body = btn.nextElementSibling;
