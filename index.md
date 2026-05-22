@@ -47,10 +47,10 @@ title: Gracie Zeller
 
   <style>
     .cv-section {
-      border-top: 1px solid #e8e8e8;
+      border-top: 1px solid var(--border-light);
     }
     .cv-section:last-child {
-      border-bottom: 1px solid #e8e8e8;
+      border-bottom: 1px solid var(--border-light);
     }
     .cv-section-toggle {
       width: 100%;
@@ -64,17 +64,16 @@ title: Gracie Zeller
       align-items: center;
     }
     .cv-section-label {
-      font-size: 15px;
-      font-weight: 500;
-      color: #111;
+      font-size: 0.95rem;
+      color: var(--text);
     }
     .cv-section-toggle:hover .cv-section-label {
-      color: #444;
+      color: var(--muted);
     }
     .cv-chevron {
       width: 16px;
       height: 16px;
-      stroke: #999;
+      stroke: var(--muted);
       fill: none;
       stroke-width: 2;
       stroke-linecap: round;
@@ -105,8 +104,8 @@ title: Gracie Zeller
       margin-bottom: 0;
     }
     .cv-entry-date {
-      font-size: 12px;
-      color: #999;
+      font-size: 0.85rem;
+      color: var(--muted);
       min-width: 80px;
       padding-top: 2px;
     }
@@ -114,19 +113,18 @@ title: Gracie Zeller
       flex: 1;
     }
     .cv-entry-title {
-      font-size: 14px;
-      font-weight: 500;
-      color: #111;
+      font-size: 0.9rem;
+      color: var(--text);
       margin: 0 0 2px;
     }
     .cv-entry-place {
-      font-size: 13px;
-      color: #666;
+      font-size: 0.85rem;
+      color: var(--muted);
       margin: 0 0 4px;
     }
     .cv-entry-desc {
-      font-size: 13px;
-      color: #666;
+      font-size: 0.85rem;
+      color: var(--muted);
       margin: 0;
       line-height: 1.6;
     }
@@ -137,18 +135,18 @@ title: Gracie Zeller
       margin-bottom: 0;
     }
     .cv-pub-title {
-      font-size: 13px;
-      font-weight: 500;
-      color: #111;
+      font-size: 0.9rem;
+      color: var(--text);
       margin: 0 0 2px;
     }
     .cv-pub-meta {
-      font-size: 12px;
-      color: #999;
+      font-size: 0.85rem;
+      color: var(--muted);
       margin: 0;
     }
     .cv-pub-meta a {
-      color: #3b82f6;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
       text-decoration: none;
     }
   </style>
@@ -174,7 +172,7 @@ title: Gracie Zeller
           <div class="cv-entry">
             <span class="cv-entry-date">2021 – 2025</span>
             <div class="cv-entry-content">
-              <p class="cv-entry-title">B.S., Psychology & Anthropology</p>
+              <p class="cv-entry-title">BS, Psychology & Anthropology</p>
               <p class="cv-entry-place">UW-Madison</p>
             </div>
           </div>
@@ -190,7 +188,7 @@ title: Gracie Zeller
       </button>
       <div class="cv-section-body">
         <div class="cv-section-inner">
-        
+
           <div class="cv-entry">
             <span class="cv-entry-date">2025 – 2026</span>
             <div class="cv-entry-content">
@@ -217,7 +215,7 @@ title: Gracie Zeller
               <p class="cv-entry-desc">PIs: Hector DeLuca, Lori Plum</p>
             </div>
           </div>
-          
+
         </div>
       </div>
     </div>
@@ -232,7 +230,7 @@ title: Gracie Zeller
         <div class="cv-section-inner">
           <div class="cv-pub-item">
             <p class="cv-pub-title">Reasoning Through the Logic of One-to-one Correspondence in Children and Macaques</p>
-            <p class="cv-pub-meta">Zeller, G., Ferrigno, S. · (in prep)
+            <p class="cv-pub-meta">Zeller, G., Ferrigno, S. · (in prep)</p>
           </div>
         </div>
       </div>
