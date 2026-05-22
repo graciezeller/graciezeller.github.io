@@ -99,13 +99,12 @@
     .hero p strong { color: var(--text); font-weight: 700; }
 
     .hero a {
-      color: var(--text);
+      color: var(--muted);
       text-decoration: none;
       border-bottom: 1px solid var(--border);
-      transition: border-color 0.15s;
+      transition: border-color 0.15s, color 0.15s;
     }
-
-    .hero a:hover { border-color: var(--text); }
+    .hero a:hover { border-color: var(--text); color: var(--text); }
 
     .divider { height: 1px; background: var(--border); }
 
@@ -201,23 +200,21 @@
     .contact-links { display: flex; flex-direction: column; gap: 0.4rem; }
 
     .contact-links a {
-      color: var(--text);
+      color: var(--muted);
       text-decoration: none;
       border-bottom: 1px solid var(--border);
-      transition: border-color 0.15s;
+      transition: border-color 0.15s, color 0.15s;
       width: fit-content;
     }
-    
-    .contact-links a:hover { border-color: var(--text); }
+    .contact-links a:hover { border-color: var(--text); color: var(--text); }
     
     .cv-pub-meta a {
-      color: var(--text);
+      color: var(--muted);
       border-bottom: 1px solid var(--border);
       text-decoration: none;
-      transition: border-color 0.15s;
+      transition: border-color 0.15s, color 0.15s;
     }
-    
-    .cv-pub-meta a:hover { border-color: var(--text); }
+    .cv-pub-meta a:hover { border-color: var(--text); color: var(--text); }
 
     footer { padding: 2rem 0 3rem; color: #b0a898; font-size: 0.75rem; }
 
