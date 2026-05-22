@@ -84,7 +84,7 @@ title: Gracie Zeller
             </div>
           </div>
           <p class="cv-entry-desc" style="margin-top: 1rem; font-style: italic;">
-          Other experience includes caring for monkeys and mice, paperboard manufacturing (read: cardboard box factory), pizza artistry, toddler swim coaching, waterslide supervision, and extensive babysitting.
+          Other experience includes caring for monkeys and mice, paperboard manufacturing (read: cardboard box factory), pizza artistry, pre-k swim coaching, waterslide supervision, and extensive babysitting.
           </p>
 
         </div>
@@ -145,8 +145,8 @@ title: Gracie Zeller
   <div class="contact-links">
     <p><a href="#" id="email-link">email</a></p>
     <script>
-      const u = 'gzeller2';
-      const d = 'wisc.edu';
+      const u = 'gzeller';
+      const d = 'umass.edu';
       const el = document.getElementById('email-link');
       el.href = 'mailto:' + u + '@' + d;
       el.textContent = u + '@' + d;
