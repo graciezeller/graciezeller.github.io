@@ -30,6 +30,7 @@ title: Gracie Zeller
       <div class="cv-section-body">
         <div class="cv-section-inner">
           <div class="cv-entry">
+          <br>
             <span class="cv-entry-date">2026 –</span>
             <div class="cv-entry-content">
               <p class="cv-entry-title">PhD student, Psychology (Cognition and Cognitive Neuroscience)</p>
@@ -38,6 +39,7 @@ title: Gracie Zeller
             </div>
           </div>
           <div class="cv-entry">
+          <br>
             <span class="cv-entry-date">2021 – 2025</span>
             <div class="cv-entry-content">
               <p class="cv-entry-title">BS, Psychology & Anthropology</p>
@@ -58,6 +60,7 @@ title: Gracie Zeller
         <div class="cv-section-inner">
 
           <div class="cv-entry">
+          <br>
             <span class="cv-entry-date">2025 – 2026</span>
             <div class="cv-entry-content">
               <p class="cv-entry-title">Laboratory Manager</p>
@@ -67,6 +70,7 @@ title: Gracie Zeller
           </div>
 
           <div class="cv-entry">
+          <br>
             <span class="cv-entry-date">2023 – 2025</span>
             <div class="cv-entry-content">
               <p class="cv-entry-title">Research Assistant</p>
@@ -76,6 +80,7 @@ title: Gracie Zeller
           </div>
 
           <div class="cv-entry">
+          <br>
             <span class="cv-entry-date">2024 – 2025</span>
             <div class="cv-entry-content">
               <p class="cv-entry-title">Research Assistant</p>
@@ -83,6 +88,7 @@ title: Gracie Zeller
               <p class="cv-entry-desc">PIs: Hector DeLuca, Lori Plum</p>
             </div>
           </div>
+          <br>
           <p class="cv-entry-desc" style="margin-top: 1rem; font-style: italic;">
           Other experience includes caring for monkeys and mice, paperboard manufacturing (read: cardboard box factory), pizza artistry, pre-k swim coaching, waterslide supervision, and extensive babysitting.
           </p>
