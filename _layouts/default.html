@@ -201,14 +201,23 @@
     .contact-links { display: flex; flex-direction: column; gap: 0.4rem; }
 
     .contact-links a {
-      color: var(--muted);
+      color: var(--text);
       text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      transition: border-color 0.15s;
       width: fit-content;
-      border-bottom: 1px solid transparent;
-      transition: color 0.15s, border-color 0.15s;
     }
-
-    .contact-links a:hover { color: var(--text); border-color: var(--border); }
+    
+    .contact-links a:hover { border-color: var(--text); }
+    
+    .cv-pub-meta a {
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+      text-decoration: none;
+      transition: border-color 0.15s;
+    }
+    
+    .cv-pub-meta a:hover { border-color: var(--text); }
 
     footer { padding: 2rem 0 3rem; color: #b0a898; font-size: 0.75rem; }
 
