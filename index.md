@@ -43,7 +43,7 @@ title: Gracie Zeller
             <span class="cv-entry-date">2021 – 2025</span>
             <div class="cv-entry-content">
               <p class="cv-entry-title">BS, Psychology & Anthropology</p>
-              <p class="cv-entry-place">UW-Madison <span>&#x1F9A1;</span></p>
+              <p class="cv-entry-place">UW-Madison</p>
             </div>
           </div>
           
