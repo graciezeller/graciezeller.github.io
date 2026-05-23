@@ -68,6 +68,14 @@ title: Gracie Zeller
               <p class="cv-entry-desc"> PI: Benjamin Pitt</p>
             </div>
           </div>
+
+          <div class="cv-entry">
+            <span class="cv-entry-date">2026 –</span>
+            <div class="cv-entry-content">
+              <p class="cv-entry-title">Teaching Assistant</p>
+              <p class="cv-entry-place">Department of Psychological and Brain Sciences, UMass Amherst</p>
+            </div>
+          </div>
           
           <div class="cv-entry">
             <span class="cv-entry-date">2025 – 2026</span>
