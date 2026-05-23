@@ -34,10 +34,11 @@ title: Gracie Zeller
             <span class="cv-entry-date">2026 –</span>
             <div class="cv-entry-content">
               <p class="cv-entry-title">PhD student, Psychology (Cognition and Cognitive Neuroscience)</p>
-              <p class="cv-entry-place">Cognitive Construction Lab, UMass Amherst</p>
-              <p class="cv-entry-desc">PI: Benjamin Pitt</p>
+              <p class="cv-entry-place">UMass Amherst</p>
+              <p class="cv-entry-desc">Advisor: Benjamin Pitt</p>
             </div>
           </div>
+          
           <div class="cv-entry">
             <span class="cv-entry-date">2021 – 2025</span>
             <div class="cv-entry-content">
@@ -45,6 +46,7 @@ title: Gracie Zeller
               <p class="cv-entry-place">UW-Madison</p>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
@@ -57,7 +59,16 @@ title: Gracie Zeller
       </button>
       <div class="cv-section-body">
         <div class="cv-section-inner">
-
+        
+        <div class="cv-entry">
+            <span class="cv-entry-date">2026 –</span>
+            <div class="cv-entry-content">
+              <p class="cv-entry-title">Graduate Student Researcher</p>
+              <p class="cv-entry-place">Cognitive Construction Lab, UMass Amherst</p>
+              <p class="cv-entry-desc"> PI: Benjamin Pitt</p>
+            </div>
+          </div>
+          
           <div class="cv-entry">
             <span class="cv-entry-date">2025 – 2026</span>
             <div class="cv-entry-content">
@@ -85,7 +96,7 @@ title: Gracie Zeller
             </div>
           </div>
           <p class="cv-entry-desc" style="margin-top: 1rem; font-style: italic;">
-          Other experience includes caring for monkeys and mice, paperboard manufacturing (read: cardboard box factory), pizza artistry, pre-k swim coaching, waterslide supervision, and extensive babysitting.
+          Other experience includes raising monkeys and mice, paperboard manufacturing (read: cardboard box factory), pizza artistry, pre-k swim coaching, waterslide supervision, and extensive babysitting.
           </p>
 
         </div>
