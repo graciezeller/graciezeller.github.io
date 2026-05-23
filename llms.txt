@@ -1,0 +1,21 @@
+# llms.txt
+
+site: https://graciezeller.github.io/
+title: Gracie Zeller
+description: Research in conceptual development, numerical cognition, and comparative cognition.
+
+important_pages:
+  - https://graciezeller.github.io/
+  - https://graciezeller.github.io/cv.pdf
+  - https://graciezeller.github.io/CDS_2026_poster.pdf
+
+topics:
+  - cognitive construction lab
+  - cognitive origins lab
+  - numerical cognition
+  - conceptual development
+  - developmental psychology
+  - comparative cognition
+  - counting
+  - hume's principle
+  - one-to-one correspondence
