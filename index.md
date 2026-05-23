@@ -33,7 +33,7 @@ title: Gracie Zeller
           <div class="cv-entry">
             <span class="cv-entry-date">2026 –</span>
             <div class="cv-entry-content">
-              <p class="cv-entry-title">PhD student, Psychology (Cognition and Cognitive Neuroscience)</p>
+              <p class="cv-entry-title">PhD Student, Psychology (Cognition and Cognitive Neuroscience)</p>
               <p class="cv-entry-place">UMass Amherst</p>
               <p class="cv-entry-desc">Advisor: Benjamin Pitt</p>
             </div>
@@ -43,7 +43,7 @@ title: Gracie Zeller
             <span class="cv-entry-date">2021 – 2025</span>
             <div class="cv-entry-content">
               <p class="cv-entry-title">BS, Psychology & Anthropology</p>
-              <p class="cv-entry-place">UW-Madison</p>
+              <p class="cv-entry-place">UW-Madison<span>&#x1F9A1;</span></p>
             </div>
           </div>
           
