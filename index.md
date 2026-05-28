@@ -104,7 +104,7 @@ title: Gracie Zeller
             </div>
           </div>
           <p class="cv-entry-desc" style="margin-top: 1rem; font-style: italic;">
-          Other experience includes rodent and nonhuman primate husbandry, paperboard manufacturing (read: cardboard box factory), pizza artistry, pre-k swim coaching, waterslide supervision, and extensive babysitting.
+          Other experience includes caring for monkeys, mice, and rats; paperboard manufacturing (read: I worked in a cardboard box factory); pizza artistry; pre-K swim coaching; waterslide supervision; and extensive babysitting.
           </p>
 
         </div>
