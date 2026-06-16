@@ -65,6 +65,7 @@ title: Gracie Zeller
             <div class="cv-entry-content">
               <p class="cv-entry-title">Teaching Assistant</p>
               <p class="cv-entry-place">Department of Psychological and Brain Sciences, UMass Amherst</p>
+              <p class="cv-entry-desc">Courses: PSYCH 337, Writing in Psychological and Brain Sciences</p>
             </div>
           </div>
           
